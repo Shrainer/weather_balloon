@@ -3,7 +3,7 @@
 Проект решает задачу мониторинга температуры и влажности на удаленной площадке, в моем случае на даче.
 Для этого был собран метеозонд, который достаточно подключить к питанию.
 
-![Alt text](https://github.com/shrainer/weather_balloon/tree/main/img/baloon.png "Telegram Bot")
+![Alt text](https://github.com/shrainer/weather_balloon/blob/main/img/baloon.png "Telegram Bot")
 
 Для проекта были использованы:
  1. Контроллер <b>ESP8266 NodeMCU</b>
@@ -16,23 +16,23 @@
 
 | Telegram  | Grafana |
 | ------------- | ------------- |
-| ![Alt text](https://github.com/shrainer/weather_balloon/tree/main/img/screen_1.jpg "Telegram Bot")  | ![Alt text](https://github.com/shrainer/weather_balloon/tree/main/img/screen_2.png "Grafana")  |
+| ![Alt text](https://github.com/shrainer/weather_balloon/blob/main/img/screen_1.jpg "Telegram Bot")  | ![Alt text](https://github.com/shrainer/weather_balloon/blob/main/img/screen_2.png "Grafana")  |
 
 
 
 ## Схема взаимодействия компонентов:
 
-![Alt text](https://github.com/shrainer/weather_balloon/tree/main/img/meteo_flow.png "Meteo Flow")
+![Alt text](https://github.com/shrainer/weather_balloon/blob/main/img/meteo_flow.png "Meteo Flow")
 <br>
 <br>
 ## ESP8266 NodeMCU + DHT22:
-![Alt text](https://github.com/shrainer/weather_balloon/tree/main/img/nodemcu_dht22.png "NodeMCU")
+![Alt text](https://github.com/shrainer/weather_balloon/blob/main/img/nodemcu_dht22.png "NodeMCU")
 
 Передача данных происходит через однопроводный протокол, требующий точной синхронизации.<br>
 Для получения данных используется библиотека <b>DHTesp</b>.<br>
 Для подключения к WiFi - библиотека <b>ESP8266WiFi</b>.<br>
 Для Web сервера - библиотека <b>ESP8266WebServer</b>.<br>
-Скетч для NodeMCU в файле https://github.com/shrainer/weather_balloon/tree/main/nodemcu.ino
+Скетч для NodeMCU в файле https://github.com/shrainer/weather_balloon/blob/main/nodemcu.ino
 <br>
 
 ## Raspberry Pi + Python + Grafana:
@@ -65,5 +65,5 @@ try:
 time.sleep(1800)
 ```
 <br>
-Весь скрип для Raspberry в файле https://github.com/shrainer/weather_balloon/tree/main/bot.py
+Весь скрип для Raspberry в файле https://github.com/shrainer/weather_balloon/blob/main/bot.py
 <br>

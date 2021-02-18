@@ -54,7 +54,7 @@ class TeleBot_treath(Thread):
             except Exception as e:
                 time.sleep(15)
 
-#---- Put Data To Grafana Treath ----------------------------
+#---- Put Data To Grafana Thread ----------------------------
 class Grafana_treath(Thread):
     def __init__(self):
         Thread.__init__(self)

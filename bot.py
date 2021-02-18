@@ -42,7 +42,7 @@ with open('/proc/uptime', 'r') as f:
 
 TelegramBot.send_message(ADMINIDA, "Сервис запущен. Uptime сервера- " + uptime_string.split('.')[0])
 
-#---- Telegram Treath ---------------------------------------
+#---- Telegram Thread ---------------------------------------
 class TeleBot_treath(Thread):
     def __init__(self):
         Thread.__init__(self)

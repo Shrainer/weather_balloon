@@ -16,7 +16,7 @@
 
 | Telegram  | Grafana |
 | ------------- | ------------- |
-| ![Alt text](https://github.com/shrainer/weather_balloon/blob/main/img/screen_1.jpg "Telegram Bot")  | ![Alt text](https://github.com/shrainer/weather_balloon/blob/main/img/weather_photo.png "Grafana")  |
+| ![Alt text](https://github.com/shrainer/weather_balloon/blob/main/img/screen_1.jpg "Telegram Bot")  | ![Alt text](https://github.com/shrainer/weather_balloon/blob/main/img/weather_photo.jpg "Grafana")  |
 
 
 

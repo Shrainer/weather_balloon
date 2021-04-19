@@ -65,5 +65,5 @@ try:
 time.sleep(1800)
 ```
 <br>
-Весь скрип для Raspberry в файле https://github.com/shrainer/weather_balloon/blob/main/bot.py
+Весь скрипт для Raspberry в файле https://github.com/shrainer/weather_balloon/blob/main/bot.py
 <br>

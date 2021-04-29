@@ -40,7 +40,7 @@ with open('/proc/uptime', 'r') as f:
     uptime_seconds = float(f.readline().split()[0])
     uptime_string = str(datetime.timedelta(seconds = uptime_seconds))
 
-TelegramBot.send_message(ADMINIDA, "Сервис запущен. Uptime сервера- " + uptime_string.split('.')[0])
+TelegramBot.send_message(Telegram_self_id, "Сервис запущен. Uptime сервера- " + uptime_string.split('.')[0])
 
 #---- Telegram Thread ---------------------------------------
 class TeleBot_treath(Thread):
@@ -69,8 +69,8 @@ class Grafana_treath(Thread):
                 data_field="METEO,host=DACHA temperature=" + grafana_req[0] + ",humidity=" + grafana_req[1]
                 grafana_curl = 'curl -i -XPOST "http://localhost:8086/write?db=TVSHOW" --data-binary "' + data_field + '"'
                 os.system(grafana_curl)
-            except Exception as e:
-                time.sleep(60)
+            except Exception: 
+                pass
             time.sleep(1800)
 
 #-----------------------------------------------------------
